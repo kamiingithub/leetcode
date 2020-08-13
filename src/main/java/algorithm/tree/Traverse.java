@@ -1,4 +1,4 @@
-package basic.tree;
+package algorithm.tree;
 
 
 /**

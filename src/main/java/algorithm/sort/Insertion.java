@@ -1,4 +1,4 @@
-package basic.tree.sort;
+package algorithm.sort;
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class Insertion{
     public static void main(String[] args) {
-        int[] arr = { 1, 0, 3, 4, 5, -6, 7, 8, 9, 10 };
+        int[] arr = {2,1,7,9,5,8};
         System.out.println("原始数据: " + Arrays.toString(arr));
         arr = insertion(arr);
         System.out.println("插入排序: " + Arrays.toString(arr));

@@ -1,4 +1,4 @@
-package basic.tree.sort;
+package algorithm.sort;
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class Merge {
     public static void main(String[] args) {
-        int[] arr = { 1, 0, 3, 4, 5, -6, -7, 8, -9, 10 };
+        int[] arr = {2,1,7,9,5,8,3,4,6};
         int[] tmp = new int[arr.length];
         System.out.println("原始数据: " + Arrays.toString(arr));
         customMergeSort(arr, tmp, 0, tmp.length-1);
@@ -46,5 +46,6 @@ public class Merge {
         for (int i = left; i <= right; i++) {
             a[i] = tmp[i];
         }
+        System.out.println(Arrays.toString(tmp));
     }
 }
